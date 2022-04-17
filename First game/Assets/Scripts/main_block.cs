@@ -21,6 +21,6 @@ public class main_block : MonoBehaviour
 
     private void FixedUpdate()
     {
-        GetComponent<Rigidbody>().velocity = new Vector3 (horizontalImput*8, 0, 0);
+        GetComponent<Rigidbody>().velocity = new Vector3 (horizontalImput*16, 0, 0);
     }
 }
